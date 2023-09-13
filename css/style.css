@@ -615,7 +615,7 @@ ol {
   Counter
 -----------------------*/
 .counter {
-  background: #8A2BE2;
+  background: #100028;
   height: 840px;
   padding-top: 380px;
   overflow: hidden;
@@ -626,7 +626,7 @@ ol {
 }
 
 .counter__item {
-  background: #2F4F4F;
+  background: #2d0666;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
       transform: rotate(45deg);
@@ -778,12 +778,46 @@ ol {
   right: 0;
   bottom: 0;
 }
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about .content ul strong {
+  margin-right: 10px;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+.col-lg-6{
+  color: #00bfe7;
+}
 
 /*---------------------
   Latest
 -----------------------*/
 .latest {
-  background: #6959CD;
+  background: #232c35;
   padding-bottom: 80px;
 }
 
@@ -792,7 +826,7 @@ ol {
 }
 .blog__item.latest__item:hover {
   border: 1px solid #222222 !important;
-  background: url(../img/blog/fudovlog.jpg);
+  background: url(../img/team/celebro.png);
   background-size: cover;
 }
 
